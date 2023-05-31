@@ -12,10 +12,13 @@ rollElement.addEventListener('click', function(){
 
     if(userDice > cpuDice){             //se UMANO batte CPU
         console.log('vince l\'umano');
+        alert('vince l\'umano');
     } else if(userDice == cpuDice){     //se i risulati sono uguali
         console.log('pareggio');
+        alert('pareggio');
     } else{                             //se CPU batte UMANO
         console.log('vince il computer');
+        alert('vince il computer');
     }
 
 })
