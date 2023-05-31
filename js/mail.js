@@ -8,17 +8,15 @@ console.log(mails);
 
 // prendo dal DOM la mail immessa dall'utente e il bottone
 const mailElement = document.getElementById('my-mail');
-let buttonElement = document.getElementById('my-validation');
+const buttonElement = document.getElementById('my-validation');
 
-buttonElement = addEventListener('click', function(){
+buttonElement.addEventListener('click', function(){
     for(let i = 0; i <= mails.length; i++){
-    console.log(mails[i]);
 
-        if(mails[i] == mailElement){
+        if(mails[i] == mailElement.value){
             console.log('MAIL VALIDA');
-        } else {
+        } else{
             console.log('MAIL NON VALIDA');
         }
-
     }
 })

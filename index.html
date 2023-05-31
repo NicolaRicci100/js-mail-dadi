@@ -8,15 +8,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">  <!-- Bootstrap -->
         <link rel="stylesheet" href="css/style.css">
         <script defer src="js/mail.js"></script>
-        <!-- <script defer src="js/dice.js"></script> -->
+        <script defer src="js/dice.js"></script>
     </head>
     <body>
         <main>
-            <div class="container">
+            <div class="container pt-5">   <!-- mail -->
                 <label class="form-label">Validazione mail</label>
                 <input id="my-mail" type="email" class="form-control">
                 <div class="form-text">Inserisci una mail valida</div>
                 <button id="my-validation" type="submit" class="btn btn-primary">Valida</button>
+            </div>
+            <div class="container pt-5">   <!-- dice -->
+                <label class="form-label">Tira un dado</label>
+                <button id="my-dice" type="submit" class="btn btn-warning">Tira!</button>
             </div>
         </main>
     </body>
