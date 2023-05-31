@@ -14,7 +14,7 @@ buttonElement.addEventListener('click', function(){
     for(let i = 0; i <= mails.length; i++){
 
         if(mails[i] == mailElement.value){
-            console.log('MAIL VALIDA');
+            console.log(mails[i] + ' è una MAIL VALIDA');
         } else{
             console.log('MAIL NON VALIDA');
         }
